@@ -1,5 +1,5 @@
-print("Damilola"[3])
+hieght = 1.2
+weight = 80
+iswinning = True
 
-num_char = len(input("what is your name?\n"))
-new_num_char = str(num_char)
-print("your name has " + new_num_char + " dacharacters")
+print (f"your height {hieght}")
