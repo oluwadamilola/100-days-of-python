@@ -8,4 +8,4 @@ if height >= 120:
  else:
     print("please pay $12")
 else:
- 1print('cant ride ')
+ print('cant ride ')
