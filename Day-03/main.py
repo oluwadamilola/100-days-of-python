@@ -11,5 +11,7 @@ if choice2 == "wait":
         print("congratulation you found the treasure")
     elif choice3 ==" blue":
         print("you enter a room full of beast: Game Over")
+    else:
+        print("you enter the room that doesnt exist: game over")
 else:
     print("you fell into a hole, Game Over")
