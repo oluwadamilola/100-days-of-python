@@ -26,10 +26,12 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+games_image  =[rock, paper, scissors]
 user_choice = int(input("what do you choose? type 0 for rock, 1 for paper and 2 for scissors.\n"))
+print(games_image[user_choice])
 computer_choice = random.randint(0,2)
-print(f"computer choice {computer_choice}")
-
+print("computer choice:")
+print(games_image[computer_choice])
 if user_choice == 0 and computer_choice == 2:
     print("you win")
 elif computer_choice == 0 and user_choice == 2:
@@ -37,7 +39,9 @@ elif computer_choice == 0 and user_choice == 2:
 
 elif computer_choice > user_choice:
     print("you lose")
+elif user_choice > computer_choice:
+    print("you win")
 elif computer_choice == user_choice:
     print("it is a draw")
-else:
+elif user_choice >= 3:
     print("you type an invalid answer")
